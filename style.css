@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'NK57MonospaceScRg-Bold';
+    src:url('assets/fonts/NK57MonospaceScRg-Bold.ttf.woff') format('woff'),
+        url('assets/fonts/NK57MonospaceScRg-Bold.ttf.svg#NK57MonospaceScRg-Bold') format('svg'),
+        url('assets/fonts/NK57MonospaceScRg-Bold.ttf.eot'),
+        url('assets/fonts/NK57MonospaceScRg-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    overflow-x: hidden;
+}
+section,nav,body{
+    background-color: #F5F5DD !important;
+}
+footer{
+    background-color: #DDDCC8;
+}
+.navbar{
+    background-color: #FFFFEB;
+}
+h1,h2{    
+    font-family: 'NK57MonospaceScRg-Bold';
+}
+.hero-section{
+    background-size: cover;
+    background-position: bottom;
+    padding: 15% 0 15% 0;
+}
+.btn-main{
+    border-radius: 125px !important;
+    padding: 10px 50px 10px 50px !important;
+    background-color: #FFFFEB !important;
+}
+.service{
+    padding: 25% 0 25% 0;
+    background-size: cover;
+    color: #fff;
+}
+.card{
+    width: 70% !important;
+}
+.card-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.products-section .col-md-6{
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+.card-body{
+    padding: 40px !important;
+}
+.products-section i{
+    color: #000 !important;
+    font-size: 30px;
+}
+.products-section a{
+    position: absolute; 
+    bottom: 0; right: 0;
+    margin: 0 30px 30px 0;
+}
+.advantages-section{
+    background-image: url('assets/farm-3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+}
+.advantages-section img{
+    width: 100px;
+    margin-top: 60px;
+    opacity: 0.8;
+}
+.fa-quote-left{
+    font-size: 30px;
+    padding: 20% 0 30% 0;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+footer h5{
+    margin-bottom: 30px;
+}
+footer p, footer h5{    
+    padding-left: 40px;
+}
+.form-section{    
+    margin: 8% 0 8% 0;
+}
+.form-section a{
+    text-decoration: none !important;
+    color: rgb(32, 31, 31);
+}
+.form-div{
+    padding: 3%;
+}
+.form-section input{
+    padding:8px 20px 8px 20px;
+    width: 70%;
+    margin-bottom: 2%;
+    border: none;
+}
+.form-section button, .checkout-form button{
+    padding:8px 20px 8px 20px;
+    width: 30%;
+    margin: 2% 0 2% 0;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(32, 31, 31);
+    color: #fff;
+}
+  
+/* Product page css */
+.products-section img{
+    width: 200px;
+    height: 200px;
+}
+.products-section p{
+    margin: 20px 0 10px 0;
+}
+.products-section i{
+    font-size: large
+}
+
+.checkout-form button:hover{
+    background-color: rgb(0, 0, 0);
+}
